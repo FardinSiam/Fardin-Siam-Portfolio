@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+p{
+    color: rgb(83, 81, 81);
+}
+
+
+.highlight{
+    color: #35A1F1;
+    font-weight: 500;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 90%;
+}
+.link{
+    color: orange;
+    text-decoration: none;
+}
+.button{
+    background-image: linear-gradient(to left, #0AF2C6,#369FF3);
+    text-decoration: none;
+    padding: 10px 24px;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.button:hover{
+    background-image: linear-gradient(to left,#FFA89D,#FF4A92);
+}
+.about-text{
+    text-align: justify;
+}
+.about-text h1{
+    color: #FF4A92;
+}
+.fb{
+    background-image: linear-gradient(to left,#FFA89D,#FF4A92);
+}
+.fb:hover{
+    background-image: linear-gradient(to left, #0AF2C6,#369FF3);
+
+}
+
+.latest-working-project{
+    background-color: #ddd;
+}
+.latest-working-project h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.projects{ 
+    margin: auto;
+}
+.project-container{
+    background-color: white;
+    box-shadow: 10px 10px 25px gray;
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin-left:5% ;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.project-img img{
+   width: 100%;
+}
+.project-texts h4 {
+    text-align: center;
+    color:#FF4A92 ;
+}
+.project-texts h4:hover{
+    color:#35A1F1;
+}
+.project-texts p{
+    text-align: center;
+}
+.contact-area{
+    background-image: linear-gradient(to left, #369FF3,#FF4A92);
+    color: white;
+    text-align:center ;
+    padding-top: 10px;
+}
+
+.input-area input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-size: 17px;
+    text-align:center;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    margin-bottom: 15px;
+}
+#textarea{
+    width: 300px;
+    height:150px ;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.submit{
+    background-image: linear-gradient(to left,#0af2f2,#369FF3);
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+}
+.work-inquiry{
+    
+    background-image: url(Images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;    
+}
+.inquiry-texts h1{
+    float: left;
+    margin-left: 530px;
+    margin-top: 320px;
+    color: white;
+}
+.inquiry-texts a{
+    float: right;
+    margin-right: 550px;
+    margin-top: 330px;
+
+}
+footer{
+    text-align:center;
+    font-size: 15px;
+    padding: 8px;
+}
